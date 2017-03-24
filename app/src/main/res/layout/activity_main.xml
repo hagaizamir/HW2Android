@@ -10,6 +10,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
+        android:gravity="center_vertical"
         android:weightSum="1"
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
@@ -25,14 +26,16 @@
                 style="@style/Widget.AppCompat.SeekBar.Discrete"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
                 android:layout_weight="1"
-                android:max="10"
-                android:progress="3" />
+                android:max="255"
+                android:progress="127" />
 
             <EditText
                 android:id="@+id/textView3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:gravity="center"
                 android:layout_weight="0"
                 android:text="128" />
         </LinearLayout>
@@ -47,14 +50,16 @@
                 style="@style/Widget.AppCompat.SeekBar.Discrete"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
                 android:layout_weight="1"
-                android:max="10"
-                android:progress="3" />
+                android:max="255"
+                android:progress="127" />
 
             <EditText
                 android:id="@+id/textView4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:gravity="center"
                 android:layout_weight="0"
                 android:text="128" />
         </LinearLayout>
@@ -69,14 +74,16 @@
                 style="@style/Widget.AppCompat.SeekBar.Discrete"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
                 android:layout_weight="1"
-                android:max="10"
-                android:progress="3" />
+                android:max="255"
+                android:progress="127" />
 
             <EditText
                 android:id="@+id/textView5"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:gravity="center"
                 android:layout_weight="0"
                 android:text="128" />
         </LinearLayout>
